@@ -1,0 +1,128 @@
+/* CSS Document */
+body {
+		margin: 0;
+		padding: 0;
+		
+		background: white;
+					
+		text-align: center;
+}
+div#page {
+		width: 763px;
+		
+		margin: 0 auto;
+		padding: 0;
+		
+		background: white;
+		text-align: center;
+}
+
+table#header td#logo {
+		padding: 40px 0 0 10px;
+}
+
+table#header td#compass {
+		padding: 11px 65px 21px 0px;
+}
+table#nav {
+		background-color: #28495b;
+}
+
+table#nav td {
+		text-align: left;
+}
+
+td#nav-home {
+		padding-left: 6px;
+		padding-right: 32px;
+}
+td#nav-why {
+		padding-right: 35px;
+}
+td#nav-lease {
+		padding-right: 38px;
+}
+td#nav-diff {
+		padding-right: 27px;
+}
+td#nav-criteria {
+		padding-right: 32px;
+}
+td#nav-principals {
+		padding-right: 30px;
+}
+td#nav-contact {
+		padding-right: 8px;
+}
+
+table#coins {
+		border-left: 1px solid #28495b;
+		border-right: 1px solid #28495b;
+}
+
+table#content {
+		border-left: 1px solid #28495b;
+		border-right: 1px solid #28495b;		
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size: 12px;
+		padding: 34px;
+}
+
+table#content h2 {
+		color: #b7a023;
+		font-size: 18px;
+		font-weight: normal;
+}
+
+table#content h3 {
+		color: #b7a023;
+		font-size: 14px;
+		font-weight: normal;
+}
+
+table#footer {
+		background-color: #28495b;
+		color: #fff;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size: 11px;
+}
+
+.quote {
+		color: #28495b;
+		font-size: 14px;
+		font-weight: normal;
+		font-style: italic;
+}
+
+.quote_cap {
+		color: #28495b;
+		font-size: 11px;
+		font-weight: normal;
+}
+
+
+.blue, table#content h2.blue, table#content h3.blue {
+		color: #28495b; 
+}
+
+.yellow, label {
+		color: #b7a023;
+}
+
+input, textarea {
+		width: 350px;
+}
+
+textarea {
+		height: 200px;
+}
+
+.small {
+		font-size: 10px;
+}
+
+img	{
+	border: 0;
+}
+
+
