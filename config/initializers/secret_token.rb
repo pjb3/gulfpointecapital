@@ -9,4 +9,8 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Gulfpointecapital::Application.config.secret_key_base = '984780da2d162b22f6e98478abf64017c73f46b1899523a677ff6efc4a259fa0f6ea85f89d9769755ea2fe76dfb9fad3d6b29b398fa11b3e7cf3089bdd3a746a'
+Gulfpointecapital::Application.config.secret_key_base = if Rails.env.development? or Rails.env.test?
+  ('x' * 30) # meets minimum requirement of 30 chars long
+else
+  ENV['SECRET_TOKEN']
+end
